@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <style>
+        ul.tasks-list {
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Dodaj nowe zadanie:</h2>
+        <form class="new-tasks" action="">
+            <input class="new-tasks" type="text">
+            <button type="submit">Dodaj zadanie</button>
+        </form>
+    </div>
+    <div>
+        <h2>Wyszukaj zadanie:</h2>
+        <input class="search-task" type="text">
+    </div>
+    <div>
+        <h1 class="info"></h1>
+        <ul class='tasks-list'></ul>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
